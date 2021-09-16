@@ -4,36 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mountain Spoke Bike Shop</title>
-    <meta name="description" content="Mountain Spoke Bike serving all of Bozeman, MT">
+    <title>Course Portal Home Page</title>
+    <meta name="description" content="Course Portal Home Page for Devin Picklesimer">
     <link href="css/main.css" rel="stylesheet">
 
 </head>
 <body>
     <header>
-        <h1>The Mountain Spoke</h1>
+        <h1>Devin Picklesimer</h1>
+        <img src="images/devinPic.jpg" alt="Devin Picklesimer">
     </header>
-    <nav>
-        <ul>
-            <li><a href="./">Home</a></li>
-            <li><a href="products">Products</a></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </nav>
     <main>
         <section>
-            <h2>Article</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus ad quam cupiditate ducimus voluptas. 
-                <img src="images/Devin.jpg" alt="Mountain Biking in the Mountains">Dolor incidunt nisi voluptatum iure ut quod placeat beatae nam amet architecto? Quas, laboriosam quo ex iusto natus voluptatum odit eum distinctio assumenda doloremque, corporis, nulla autem optio quae aliquid pariatur atque sequi voluptatibus molestiae explicabo voluptas obcaecati! Modi rem corporis accusamus perspiciatis laudantium fugit necessitatibus animi. Sequi adipisci dignissimos quidem provident commodi eius totam aliquid modi, dolor in animi officia eaque atque delectus sapiente iusto nulla corporis quaerat! Voluptates delectus quos iste saepe libero dolorem explicabo accusantium doloremque ea dolore quaerat minus eligendi labore sit, a optio dolorum odio mollitia tenetur atque earum nemo? Voluptates odit, tempore numquam dicta hic quam. Animi cupiditate architecto ex reprehenderit, quo cumque nesciunt repellendus quas enim deserunt, sit quae distinctio odit soluta. Dolorem, at quos repellat rerum repudiandae nostrum alias optio ad distinctio dicta nisi reiciendis, perspiciatis, aut nobis! Quisquam beatae maiores at doloribus ipsam architecto voluptatem totam assumenda similique delectus, quae facere explicabo quo obcaecati ratione in. Animi, sequi perspiciatis? Tempore laboriosam quod, magni, est nihil eaque alias, voluptatum sunt aliquid odio atque eligendi quam aspernatur enim rerum possimus distinctio at asperiores perspiciatis voluptatibus praesentium sed? Autem sapiente at quos labore tempore? Maxime explicabo sed repudiandae nobis dolor eum voluptate corporis necessitatibus ipsum quibusdam rem, hic similique laudantium praesentium libero tenetur? Nulla, dolorum odio deserunt reprehenderit fugiat perferendis consectetur quo aperiam officia est nobis suscipit necessitatibus obcaecati maiores laudantium. Officia dolores incidunt distinctio blanditiis corrupti obcaecati ducimus voluptas.</p>
-        </section>
-        <section>
-            <h2></h2>
+            <h2>WDD 230: Assignment Portal</h2>
+            <hr>
+            <ul>
+                <li>Lesson 02 | <a href="./">Design Principles</a></li>
+                <li>Lesson 03 | <a href="">Weather Site Plan</a></li>
+                <li>Lesson 04 | <a href="">Link</a></li>
+                <li>Lesson 05 | <a href="">Link</a></li>
+                <li>Lesson 06 | <a href="">Link</a></li>
+            </ul>
         </section>
     </main>
     <footer>
-
+        &copy; <span id="currentyear"></span> | Devin Picklesimer | <a href="https://developer.mozilla.org/en-US/">MDN Documentation Site</a> | BYU-Idaho | Last Updated: <span id="lastModified"></span>
     </footer>
+    <script>
+        const year = new Date().getFullYear();
+        const lastModified = document.lastModified;
+        document.getElementById("currentyear").textContent = year;
+        document.getElementById("lastModified").textContent = lastModified;
+    </script>
 </body>
 </html>
