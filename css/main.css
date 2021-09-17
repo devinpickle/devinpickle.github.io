@@ -9,7 +9,6 @@ h1, h2 {
 body {
     background-color: lightcyan;
     text-align: center;
-    
     padding: 1.5rem;
 }
 
@@ -17,6 +16,11 @@ main {
     background-color: white;
     padding-top: 3px;
     padding-bottom: 3px;
+}
+
+.centerBox {
+    max-width: 50%;
+    margin: 0 auto;
 }
 
 h2 {
@@ -45,33 +49,5 @@ hr {
     margin: 1.5rem;
 }
 
-
-
-
-
-/* body {
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-header, nav, main, footer {
-    margin: 1.25rem auto;
-    max-width: 760px;
-}
-
-header, footer {
-    background-color: navy;
-    color: white;
-    text-align: center;
-    padding: 1.5rem;
-}
-
-p img {
-    float: right;
-    margin: 10px;
-    border: 1px solid black;
-    max-width: 400px;
-    max-height: 600px;
-} */
 
 
