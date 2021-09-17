@@ -7,9 +7,9 @@
     <title>Course Portal Home Page</title>
     <meta name="description" content="Course Portal Home Page for Devin Picklesimer">
     <link href="css/main.css" rel="stylesheet">
-
 </head>
 <body>
+    <script src="js/main.js" type="module"></script>
     <div class="centerBox">
     <header>
         <h1>Devin Picklesimer</h1>
@@ -31,12 +31,6 @@
     <footer>
         &copy; <span id="currentyear"></span> | Devin Picklesimer | <a href="https://developer.mozilla.org/en-US/">MDN Documentation Site</a> | BYU-Idaho | Last Updated: <span id="lastModified"></span>
     </footer>
-    <script>
-        const year = new Date().getFullYear();
-        const lastModified = document.lastModified;
-        document.getElementById("currentyear").textContent = year;
-        document.getElementById("lastModified").textContent = lastModified;
-    </script>
     </div>
 </body>
 </html>

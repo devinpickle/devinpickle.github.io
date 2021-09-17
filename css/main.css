@@ -42,7 +42,10 @@ ul {
 
 img {
     max-width: 50%;
-    height: auto;   
+    height: auto;
+    border-radius: 2%;  
+    box-shadow: 2px 2px 20px; 
+    margin-bottom: 5%;
 }
 
 hr {
