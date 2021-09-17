@@ -12,14 +12,14 @@ body {
     padding: 1.5rem;
 }
 
-main {
+nav {
     background-color: white;
     padding-top: 3px;
     padding-bottom: 3px;
 }
 
 .centerBox {
-    max-width: 50%;
+    max-width: 600px;
     margin: 0 auto;
 }
 
