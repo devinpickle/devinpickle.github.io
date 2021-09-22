@@ -1,23 +1,45 @@
-h1, h2, p, ul {
-    font-family: Arial;
-}
+/* 
+Order of implementing CSS
+1. Imports
+2. Mobile and General
+2a. General
+2b. Mobile
+3. Midsize
+4. Large
+5. Really Large
+*/
 
-h1, h2 {
-    color: darkblue;
-}
-
+/* 2a. General */
 body {
     background-color: lightcyan;
     text-align: center;
     padding: 1.5rem;
 }
-
+p, ul {
+    font-family: Arial;
+}
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+    color: darkblue;
+}
+hr {
+    margin: 1.5rem;
+}
 nav {
     background-color: white;
     padding-top: 3px;
     padding-bottom: 3px;
 }
+ul {
+    /* Got help with centering the list here: https://stackoverflow.com/questions/19443013/how-to-center-an-unordered-list */
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    list-style-type: none;
+    margin-top: -1em;  
+}
 
+/* 4. Large Device */
 .centerBox {
     max-width: 600px;
     margin: 0 auto;
@@ -29,17 +51,6 @@ h2 {
     margin-bottom: -1em;
 }
 
-
-ul {
-    /* Got help with centering the list here: https://stackoverflow.com/questions/19443013/how-to-center-an-unordered-list */
-    display: table;
-    margin: 0 auto;
-    text-align: left;
-    list-style-type: none;
-    margin-top: -1em;
-    
-}
-
 img {
     max-width: 50%;
     height: auto;
@@ -47,10 +58,3 @@ img {
     box-shadow: 2px 2px 20px; 
     margin-bottom: 5%;
 }
-
-hr {
-    margin: 1.5rem;
-}
-
-
-
