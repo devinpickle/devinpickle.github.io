@@ -1,0 +1,24 @@
+@media (min-width: 32.5em) {
+    img {
+        margin-left: 60%;
+        max-width: 35%;
+    }
+    nav {
+        margin-right: 30%;
+        margin-bottom: 40%;
+        margin-top: -55%;
+        max-width: 60%;
+
+    }
+    .centerBox {
+        background-color: white;
+        max-width: 800px;
+        border-radius: 1%;
+    }
+    h1, footer {
+        background-color: lightcyan;
+    }
+    h1 {
+        font-size: 42px;
+    }
+}
