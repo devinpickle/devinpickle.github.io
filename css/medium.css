@@ -27,4 +27,8 @@
     h1 {
         font-size: 42px;
     }
+
+    p {
+        margin: 40%;
+    }
 }
