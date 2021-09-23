@@ -54,7 +54,7 @@ h2 {
 }
 
 img {
-    max-width: 50%;
+    max-width: 40%;
     height: auto;
     border-radius: 2%;  
     box-shadow: 2px 2px 20px; 
@@ -62,11 +62,11 @@ img {
     align-self: right;
 }
 
-.grid1, .grid2, .grid3 {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 6px auto;
-    gap: 2em;
+
+
+#design-principles-main {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 #design-principles-main h1, h2 {
@@ -79,4 +79,8 @@ img {
 
 #design-principles-main hr {
     border: .5px solid black;
+}
+
+#home-link {
+    text-decoration: none;
 }
