@@ -67,8 +67,9 @@ img {
 p {
     padding-left: 15%;
     padding-right: 10%;
-    margin: 8%;
-    margin-top: 5%;
+    margin: 8px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     text-align: left;
     
 }
@@ -101,14 +102,16 @@ p {
     text-decoration: none;
 }
 
-#design-principles-main {
-    
+#design-principles-main a {
+    margin-bottom: 30px;
 }
 
 #design-principles-box {
     background-color: white;
     margin: 3%;
 }
+
+
 
 /* =========================
         Medium-Large
