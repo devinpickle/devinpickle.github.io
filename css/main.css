@@ -65,9 +65,11 @@ img {
 }
 
 p {
-    
-    margin: 15%;
+    padding-left: 15%;
+    padding-right: 10%;
+    margin: 8%;
     margin-top: 5%;
+    text-align: left;
     
 }
 
@@ -82,6 +84,8 @@ p {
 
 #design-principles-main h1 {
     margin-top: 40px;
+    background-color: white;
+    
 }
 
 #design-principles-main hr {
@@ -95,6 +99,15 @@ p {
 
 #home-link {
     text-decoration: none;
+}
+
+#design-principles-main {
+    
+}
+
+#design-principles-box {
+    background-color: white;
+    margin: 3%;
 }
 
 /* =========================
@@ -139,7 +152,7 @@ p {
     .grid1, .grid2, .grid3 {
         display:grid;
         grid-template-columns: 1fr 1fr;
-        margin: 6px auto;
+        margin: 2px auto;
         gap: 2em;
     }
 }
