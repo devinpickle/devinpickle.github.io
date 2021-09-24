@@ -62,7 +62,12 @@ img {
     align-self: right;
 }
 
-
+.grid1, .grid2, .grid3 {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 6px auto;
+    gap: 2em;
+}
 
 #design-principles-main {
     max-width: 1000px;
@@ -79,6 +84,11 @@ img {
 
 #design-principles-main hr {
     border: .5px solid black;
+    margin-top: 20px;
+}
+
+#design-principles-main img {
+    margin-bottom: 2px;
 }
 
 #home-link {
