@@ -167,11 +167,12 @@ p {
     #design-principles-main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        
     }
     #design-principles-main h1 {
         padding: 0px;
-        
+    }
+    #design-principles-main img {
+        max-width: 100%;
     }
     #white-space {
         grid-column: 0/1;
