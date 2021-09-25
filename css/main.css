@@ -174,20 +174,12 @@ p {
     #design-principles-main img {
         max-width: 100%;
     }
-    #white-space {
-        grid-column: 0/1;
-    }
     
-    #alignment {
-        grid-column: 3/4;
-    }
     #alignment h1 {
         margin-bottom: 100px;
         padding-top: 80px;
     }
-    #contrast {
-        grid-column: 5/7;
-    }
+    
     #contrast h1 {
         margin-bottom: 100px;
         padding-top: 80px;
