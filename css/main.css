@@ -113,7 +113,7 @@ p {
 
 
 /* =========================
-        Medium-Large
+        Medium
 ============================ */
 
 @media (min-width: 32.5em) {
@@ -156,5 +156,50 @@ p {
         grid-template-columns: 1fr 1fr;
         margin: 2px auto;
         gap: 2em;
+    }
+}
+
+/* ===================
+        large
+=================== */
+
+@media (min-width: 48.5em) {
+    #design-principles-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        
+    }
+    #design-principles-main h1 {
+        padding: 0px;
+        
+    }
+    #white-space {
+        grid-column: 0/1;
+    }
+    
+    #alignment {
+        grid-column: 3/4;
+    }
+    #alignment h1 {
+        margin-bottom: 100px;
+        padding-top: 80px;
+    }
+    #contrast {
+        grid-column: 5/7;
+    }
+    #contrast h1 {
+        margin-bottom: 100px;
+        padding-top: 80px;
+    }
+    .grid1, .grid2, .grid3 {
+        grid-template-columns: 1fr;
+    }
+    p {
+        margin: -5px;
+        margin-top: 10px;
+        padding: 2px;
+    }
+    .trainline-link {
+        margin-bottom: 200px;
     }
 }
