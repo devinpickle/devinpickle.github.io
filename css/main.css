@@ -163,7 +163,7 @@ p {
         large
 =================== */
 
-@media (min-width: 48.5em) {
+@media (min-width: 78.5em) {
     #design-principles-main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
