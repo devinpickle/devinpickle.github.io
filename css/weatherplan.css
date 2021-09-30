@@ -10,7 +10,7 @@ nav li a {
     display: block;
     text-align: center;
     text-decoration: none;
-    padding: 15px;
+    padding: 18px;
     background-color: darkblue;
     color: white;
     font-size: 20px;
@@ -20,7 +20,6 @@ nav li a {
 nav a:hover {
     background-color: lightcyan;
     color: black;
-    font-size: 20px;
 }
 
 nav a:active {
