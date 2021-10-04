@@ -37,10 +37,12 @@ nav li a {
     display: block;
     text-align: center;
     text-decoration: none;
-    padding: 18px;
+    padding: 2px;
+    padding-bottom: 16px;
+    padding-top: 16px;
     background-color: darkblue;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Yantramanav', sans-serif;
 }
 
@@ -109,5 +111,11 @@ img {
     }
     nav ul li {
         flex: 1 1 100%;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
     }
 }
