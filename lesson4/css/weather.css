@@ -1,0 +1,113 @@
+header {
+    background-color: rgb(253, 253, 137);
+    display: flex;
+    grid-template-columns: 50% 50%;
+    
+}
+header h1, img {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+footer {
+    background-color: rgb(253, 253, 137);
+    padding: 10px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 2px 2px 20px; 
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 18px;
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+nav a:hover {
+    background-color: lightcyan;
+    color: black;
+}
+
+nav a:active {
+    color: yellow;
+}
+
+body {
+    margin: 0;
+    background-color: lightskyblue;
+}
+
+main {
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    color: darkblue;
+    margin: 0;
+}
+
+h2, h3, h4 {
+    font-family: 'Russo One', sans-serif;
+    color: rgb(5, 59, 141);
+    margin: 10px;
+    margin-top: 0;
+    padding-top: 5px;
+}
+ 
+h2 {
+    text-align: center;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px;
+}
+
+img {
+    max-width: 80%;
+}
+
+.content-box {
+    margin: 20px;
+    padding: 20px;
+    border-style: dotted;
+    background-color: lightgrey;
+}
+
+.responsive li {
+    display: block;
+}
+
+/* ============================
+        Tablet view
+============================ */
+@media (min-width: 37.5em) {
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+    }
+}
