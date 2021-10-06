@@ -114,6 +114,13 @@ img {
         Tablet view
 ============================ */
 @media (min-width: 37.5em) {
+    nav {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    nav li a {
+        font-size: 12px;
+    }
     nav ul {
         display: flex;
     }
@@ -137,5 +144,15 @@ img {
     header p{
         padding-top: 40px;
         margin-left: -40px;
+    }
+
+}
+
+/* ============================
+        Large view
+============================ */
+@media (min-width: 48.5em) {
+    nav li a {
+        font-size: 16px;
     }
 }
