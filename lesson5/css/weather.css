@@ -53,6 +53,36 @@ footer {
     margin-top: 0px;
 }
 
+
+#herobox {
+    background-image: url("../images/preston.jpg");
+    background-position: center;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+    border: none;
+}
+#herobox img{
+    max-width: 100%;
+    left: 0px;
+    right: 0px;
+    
+}
+#herobox section {
+    background-color: lightblue;
+    position: relative;
+    margin: 20px;
+    opacity: 80%;
+    border-radius: 5px;
+    max-width: 200px;
+    top: 10px;
+}
+ul, li {
+    list-style: none;
+}
+
 /* Only show the menu button on nav */
 .navigation li:first-child {
     display: block;
@@ -106,7 +136,7 @@ body {
 main {
     background-color: white;
     margin-bottom: 0;
-    padding-bottom: 20px;
+    padding-bottom: 0;
 }
 
 h1 {
@@ -154,8 +184,34 @@ img {
     display: block;
 }
 
+.contactinfo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: orange;
+    margin-top: 10%;
+}
 
+.contactinfo img {
+    max-width: 60%;
+    margin: 10%;
+    padding: 10px;
+    justify-self: center;
+}
 
+#contact {
+    padding: 0;
+    margin: 10%;
+    border-style: black;
+    background-color: orange;
+    font-weight: bold;
+    grid-column: 2/3;
+    justify-self: center;
+}
+
+#contact img {
+    max-width: 20%;
+    margin: 0;
+}
 
 
 /* ============================
