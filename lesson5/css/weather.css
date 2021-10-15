@@ -201,7 +201,6 @@ img {
 #contact {
     padding: 0;
     margin: 10%;
-    border-style: black;
     background-color: orange;
     font-weight: bold;
     grid-column: 2/3;
