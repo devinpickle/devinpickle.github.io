@@ -33,6 +33,3 @@ if (day == "Friday") {
     pancakeBanner.classList.toggle("showpancake");
 
 }
-
-// Display a message saying js is needed to enhance the page
-alert("JavaScript must be enabled to enhance features of this page.");
