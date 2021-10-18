@@ -1,4 +1,5 @@
 const year = new Date().getFullYear();
+var currentDay = new Date().getDay();
 const lastModified = new Date(document.lastModified);
 
 // Get the full name of day and month
@@ -9,6 +10,7 @@ var months = new Array("January", "February", "March",
  "October", "November", "December");
 var day = lastModified.getDay();
 var day = weekday[day];
+var currentDay = weekday[currentDay];
 var month = lastModified.getMonth();
 var month = months[month];
 
@@ -28,7 +30,7 @@ navbutton.addEventListener('click', ()=>{
 
 // Show Pancake banner only on Fridays
 const pancakeBanner = document.querySelector('.pancakebanner');
-if (day == "Friday") {
+if (currentDay == "Monday") {
     console.log(day);
     pancakeBanner.classList.toggle("showpancake");
 
