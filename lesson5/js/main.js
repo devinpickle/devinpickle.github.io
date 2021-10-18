@@ -30,7 +30,7 @@ navbutton.addEventListener('click', ()=>{
 
 // Show Pancake banner only on Fridays
 const pancakeBanner = document.querySelector('.pancakebanner');
-if (currentDay == "Monday") {
+if (currentDay == "Friday") {
     console.log(day);
     pancakeBanner.classList.toggle("showpancake");
 
