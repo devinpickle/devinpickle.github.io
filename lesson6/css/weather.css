@@ -266,5 +266,8 @@ main figure.logo img {
         justify-items: left;
         grid-column: 2/3;
     }
-    
+    #herobox {
+        bottom: 38%;
+        left: 12%;
+    }
 }
