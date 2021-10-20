@@ -245,12 +245,12 @@ main figure.logo img {
     }
     #herobox {
         max-width: 200px;
-        max-height: 150px;
+        max-height: 160px;
+        padding: 1px;
         background-color: rgb(173, 216, 230, 0.85);
         position: absolute;
-        bottom: 42%;
-        left: 10%;
     }
+
     
 
 }
@@ -267,7 +267,6 @@ main figure.logo img {
         grid-column: 2/3;
     }
     #herobox {
-        bottom: 38%;
-        left: 12%;
+        padding: 10px;
     }
 }
