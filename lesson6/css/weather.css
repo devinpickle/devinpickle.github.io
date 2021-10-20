@@ -60,10 +60,13 @@ footer {
     margin-top: 0px;
 }
 
-#herobox {
+.herobox {
     margin: 20px 40px 20px 40px;
     background-color: lightblue;
     padding: 10px;
+}
+#heroboxLarge {
+    display: none;
 }
 
 ul, li {
@@ -243,12 +246,18 @@ main figure.logo img {
     #fiveday {
         display: block;
     }
-    #herobox {
+    .herobox {
         max-width: 200px;
         max-height: 160px;
         padding: 1px;
         background-color: rgb(173, 216, 230, 0.85);
         position: absolute;
+    }
+    #heroboxLarge {
+        display: block;
+    }
+    #heroboxSmall {
+        display: none;
     }
 
     
@@ -266,7 +275,13 @@ main figure.logo img {
         justify-items: left;
         grid-column: 2/3;
     }
-    #herobox {
+    .herobox {
         padding: 10px;
+    }
+    #heroboxLarge {
+        display: block;
+    }
+    #heroboxSmall {
+        display: none;
     }
 }
