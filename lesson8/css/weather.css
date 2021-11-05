@@ -231,7 +231,8 @@ main figure.logo img {
     margin: 20px;
     margin-bottom: 0;
     padding: 20px;
-    background-color: lightgrey;
+    background-color: rgb(235, 233, 233);
+    border-radius: 1%;
 }
 .normal-p{
     text-shadow: none;
