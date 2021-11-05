@@ -60,8 +60,3 @@ function buildWC(speed, temp) {
 function adjustRating(rating) {
     document.getElementById("ratingvalue").innerHTML = rating;
 }
-
-// Go to thank you page when user submits form
-function changePage(){
-    window.location.href = "thanks.html";
-  }
