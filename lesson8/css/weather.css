@@ -239,9 +239,34 @@ main figure.logo img {
 fieldset, fieldset select, #stormrange {
     margin-bottom: 20px;
 }
+
+/* Inputs */
 input {
     margin-bottom: 15px;
 }
+#fullname {
+    width: 180px;
+}
+#phone {
+    width: 160px;
+}
+#zip {
+    width: 100px;
+}
+#stormdate {
+    width: 140px;
+}
+#stormtype {
+    width: 160px;
+}
+
+.required-field {
+    color: rgb(236, 2, 2);
+}
+#instruction-asterisk {
+    margin: 10px;
+}
+
 fieldset>* {
     margin-left: 20px;
 }
@@ -254,6 +279,7 @@ fieldset p {
 .thankyou {
     text-align: center;
 }
+
 
 
 

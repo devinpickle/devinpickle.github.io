@@ -33,18 +33,19 @@
     </nav>
     <main>
         <h2>Storm Center</h2>
-        <p class="normal-p">Users can report a storm or unusual weather event in their travel area.</p>
+        <p class="normal-p">Users can report a storm or unusual weather event in their travel area. Please fill out each field. When typing your name, please use a space between first and last names.</p>
+        <span class="required-field" id="instruction-asterisk">*</span>Required and must be filled.
         <div class="storm-center-box">
             <form action="#" method="post">
                 <fieldset>
                     <legend>User Info</legend>
-                    <label for="fullname">Full name:</label><br>
+                    <label for="fullname"><span class="required-field">*</span> Full name:</label><br>
                     <input type="text" id="fullname" name="fullname" pattern="[A-Za-z]" required minlength="5"><br>
                     <label for="email">Email:</label><br>
                     <input type="email" id="email" name="email" placeholder="johndoe@gmail.com"><br>
-                    <label for="phone">Phone #:</label><br>
+                    <label for="phone"><span class="required-field">*</span> Phone #:</label><br>
                     <input type="tel" id="phone" name="phone" required><br>
-                    <label for="zip">Zip Code:</label><br>
+                    <label for="zip"><span class="required-field">*</span> Zip Code:</label><br>
                     <input type="number" id="zip" name="zip" required><br>
                 </fieldset>
                 <fieldset>
