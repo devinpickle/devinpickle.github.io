@@ -20,6 +20,7 @@ fetch(requestURL)
         bd.textContent = prophets[i].birthdate;
         bp.textContent = prophets[i].birthplace;
         img.src = prophets[i].imageurl;
+        img.alt = prophets[i].name + ' ' + prophets[i].lastname;
         h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
 
         card.appendChild(h2);
