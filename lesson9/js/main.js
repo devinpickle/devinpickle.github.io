@@ -60,3 +60,5 @@ function buildWC(speed, temp) {
 function adjustRating(rating) {
     document.getElementById("ratingvalue").innerHTML = rating;
 }
+
+
