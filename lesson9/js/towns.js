@@ -21,8 +21,8 @@ fetch('../../lesson9/towndata.json')
         prestonYear.textContent += towns[4].yearFounded;
         prestonPop.textContent += towns[4].currentPopulation;
         prestonFall.textContent += towns[4].averageRainfall;
-        prestonImg.src = "images/preston_small.jpg";
-        prestonImg.alt = "Preston";
+        prestonImg.src = "images/" + towns[4].photo;
+        prestonImg.alt = towns[4].name;
         console.log("Preston data is done");
 
         // Get Fish Haven data
@@ -35,8 +35,8 @@ fetch('../../lesson9/towndata.json')
         fishYear.textContent += towns[1].yearFounded;
         fishPop.textContent += towns[1].currentPopulation;
         fishFall.textContent += towns[1].averageRainfall;
-        fishImg.src = "images/fish_small.jpg";
-        fishImg.alt = "Fish Haven";
+        fishImg.src = "images/" + towns[1].photo;
+        fishImg.alt = towns[1].name;
 
         // Get Soda Springs data
         let sodaMotto = document.getElementById('soda-motto');
@@ -48,8 +48,8 @@ fetch('../../lesson9/towndata.json')
         sodaYear.textContent += towns[5].yearFounded;
         sodaPop.textContent += towns[5].currentPopulation;
         sodaFall.textContent += towns[5].averageRainfall;
-        sodaImg.src = "images/soda_small.jpg";
-        sodaImg.alt = "Soda Springs";
+        sodaImg.src = "images/" + towns[5].photo;
+        sodaImg.alt = towns[5].name;
     
   })
 .catch(function(error){
