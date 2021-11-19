@@ -36,3 +36,17 @@ fetch(requestURL)
 })
 
 
+const requestURL = '';
+fetch(requestURL)
+.then(function (response) {
+if(response.ok) {
+return response.json();
+}
+throw new ERROR('Network response was not ok');
+})
+.then(function (jsonObject) {
+console.log(jsonObject);  // temporary checking for valid response and data parsing
+})
+.catch(function(error){
+console.log('Fetch error: ', error.message);
+})
