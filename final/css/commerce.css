@@ -1,5 +1,5 @@
 header {
-    background-color: #D70036;
+    background-color: #eb5379;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 40% 60%;
@@ -34,10 +34,15 @@ header h1, p {
 }
 
 footer {
-    background-color: #D70036;
+    background-color: #eb5379;
     padding: 10px;
     text-align: center;
     margin-top: 0px;
+    color: black;
+}
+
+footer a {
+    color: black;
 }
 
 ul, li {
@@ -386,6 +391,7 @@ input {
         margin: 0 10% 0 10%;
         padding-left: 10%;
         padding-right: 10%;
+        color: black;
     }
     .directory-grid {
         grid-template-columns: 1fr 1fr;
