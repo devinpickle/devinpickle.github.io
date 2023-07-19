@@ -35,41 +35,21 @@ header {
 
 .centerBox {
 	text-align: center;
-	margin-top: 0px;
-	background-color: rgb(53, 75, 75);
-	box-shadow: 2px 2px 10px;
+	margin-top: 100px;
 }
 
 .centerBox img {
-	max-width: 100px;
+	max-width: 180px;
 	border-radius: 100%;
 	margin-bottom: -10px;
-	margin-left: 100px;
-	padding-top: 20px;
-	padding-bottom: 20px;
 }
 
 .centerBox h2 {
-	margin-top: -40px;
-	grid-column: 2;
-	margin-left: -20px;
+	margin-top: -20px;
 }
 .centerBox h1 {
 	font-size: 36px;
-	grid-column: 2;
-	margin-left: -50px;
 }
-
-#centerBoxHeader {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	max-width: 500px;
-	/* background-color: grey; */
-	align-items: center;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 
 footer {
 	position: relative;
@@ -84,16 +64,14 @@ footer {
 nav {
 	margin-left: auto;
 	margin-right: auto;
-	width: 100%;
+	max-width: 1000px;
 	display: flex;
-	padding-top: 10px;
 }
 
 nav ul {
-	list-style: none;
     list-style-type: none;
     margin: 0;
-    padding: 10px 0px 10px 0px;
+    padding: 0;
     overflow: hidden;
     box-shadow: 2px 2px 20px;
 	margin-left: auto;
@@ -102,13 +80,13 @@ nav ul {
 }
 
 li {
-    display: inline;
+    display: block;
 	list-style: none;
-	width: 100px;
+	width: 300px;
 }
 
 li a {
-	display: inline;
+	display: block;
     text-align: center;
     text-decoration: none;
     padding: 30px;
@@ -118,7 +96,6 @@ li a {
     color: white;
     font-size: 16px;
     font-family: 'Yantramanav', sans-serif;
-	width: 100px;
 }
 
 nav a:visited {
@@ -139,69 +116,4 @@ nav a:active {
 }
 
 
-
-/* **************************
-		Main Page Content
-*****************************/
-
-main {
-	margin-top: 0px;
-}
-
-main h1 {
-	margin-top: 0px;
-	padding-top: 20px;
-}
-
-main h2 {
-	margin-top: 80px;
-}
-
-img {
-	max-width: 300px;
-}
-
-
-/* *************************
-	Project Page Content 
-*****************************/
-
-.projectUL a:hover{
-	background-color: rgb(123, 142, 142);
-}
-
-.topicGrid {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	margin-top: 20px;
-}
-
-.gridCard {
-	/* border: 1px solid black; */
-}
-
-.gridCard img{
-	max-width: 150px;
-}
-
-.gridCard iframe {
-	max-width: 300px;
-	height: 250px;
-}
-
-.gridCard p {
-	max-width: 300px;
-	margin: auto;
-	text-align: left;
-}
-
-.gridCard h3 {
-	margin-top: 30px;
-}
-
-.gridCard strong {
-	margin-left: 0;
-	color: rgb(123, 142, 142);
-	margin-top: 18px;
-}
 
