@@ -1,3 +1,5 @@
+/* This is a file to save my progress on adding a banner image background at the top of each page */
+
 /* 
 Order of implementing CSS
 1. Imports
@@ -38,13 +40,8 @@ header {
 	margin-top: 0px;
 	background-color: rgb(53, 75, 75);
 	box-shadow: 2px 2px 10px;
-	background-image: url("../images/devKaitBanner.jpg");
-	background-repeat: no-repeat;
-	background-size:contain;
-	background-position: center;
-	background-color: rgb(53, 75, 75);
-	max-height: 100%;
-	max-width: 100%;
+	/* background-image: url("../images/devKaitBanner.jpg");
+	background-repeat: no-repeat; */
 }
 
 .banner {
@@ -55,14 +52,10 @@ header {
 .bannerImg {
 	grid-column: 2;
 	background-image: url("../images/devKaitBanner.jpg");
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 	max-height: 100%;
 }
 
-.bannerTitle {
-	background-color: rgba(128, 128, 128, 0.5);
-	border-radius: 50%;
-}
 
 #centerBoxHeader img {
 	max-width: 140px;
@@ -91,6 +84,7 @@ header {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	max-width: 500px;
+	/* background-color: grey; */
 	align-items: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -210,10 +204,8 @@ img {
 #projectUL a:hover{
 	background-color: rgb(123, 142, 142);
 }
-#projectUL p {
+#projectUL strong {
 	font-size: 20px;
-	text-align: center;
-	margin-right: 50px;
 }
 
 .topicGrid {
@@ -389,19 +381,3 @@ h3 a {
 	margin-right: auto;
 }
 
-
-
-
-
-/* ********************
-		Phone View 
-************************/
-@media (max-width: 37.5em) {
-	.topicGrid {
-		grid-template-columns: 1fr;
-	}
-
-	.poursContainer {
-		max-width: 360px;
-	}
-}

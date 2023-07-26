@@ -7,6 +7,7 @@
     <title>Devin Picklesimer | About</title>
     <meta name="description" content="All about Devin Picklesimer, his life and journey">
     <link rel="stylesheet" href="../css/main.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="shortcu icon" href="../images/devinpic.jpg">
 </head>
 <body>
@@ -14,13 +15,15 @@
     <header>
     </header>
     <div class="centerBox">
-        <div id="centerBoxHeader">
-            <img src="../images/devinpichead.jpg" alt="Devin Picklesimer">
-            <h1>Devin Picklesimer</h1>
-            <h2><i>Software Engineer</i></h2>
+        <div class="banner">
+            <div id="centerBoxHeader">
+                <img src="../images/devinpichead.jpg" alt="Devin Picklesimer">
+                <h1 class="bannerTitle">Devin Picklesimer</h1>
+                <h2 class="bannerTitle"><i>Software Engineer</i></h2>
+            </div>
         </div>
         <nav>
-            <ul>
+            <ul class="navStyle">
                 <li><a href="aboutme.html">About Me</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="work.html">Work History</a></li>
@@ -28,16 +31,19 @@
         </nav>
         
     </div>
-    <main>
+    <main class="projectsMain">
         <h1>
             Projects
         </h1>
-        <ul class="projectUL">
+        <ul class="navStyle" id="projectUL">
+            <p><strong>Navigate to a specific language:</strong></p>
             <li><a href="#C++">C++</a></li>
             <li><a href="#Python">Python</a></li>
             <li><a href="#Java">Java</a></li>
             <li><a href="#FlutterDart">Flutter & Dart</a></li>
+            <li><a href="#Web">HTML/CSS/JS</a></li>
             <li><a href="#R">R</a></li>
+
         </ul>
         <div id="C++">
             <h2>
@@ -48,7 +54,17 @@
                     <h3>
                         Orbit Simulator
                     </h3>
-                    <iframe src="https://www.youtube.com/embed/EcC1NydsXNw" allow="fullscreen"></iframe>
+                    <!-- Found help with an easy way to lazy load videos here: https://css-tricks.com/lazy-load-embedded-youtube-videos/ -->
+                    <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/EcC1NydsXNw?&autoplay=1&mute=1"
+                    srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/EcC1NydsXNw?&autoplay=1&mute=1><img src=https://img.youtube.com/vi/EcC1NydsXNw/hqdefault.jpg alt='Video Orbit Simulator'><span>▶</span></a>"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    title="Orbit Simulator"
+                    ></iframe>
                     <p>
                         <br><strong>WHAT: </strong>Paired programming school project
                         <br><strong>PURPOSE/GOAL: </strong>Learn inheritance class design
@@ -61,7 +77,16 @@
                     <h3>
                         Chess
                     </h3>
-                    <iframe src="https://www.youtube.com/embed/VfXN3IqElDk" allow="fullscreen"></iframe>
+                    <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/VfXN3IqElDk?&autoplay=1&mute=1"
+                    srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/VfXN3IqElDk?&autoplay=1&mute=1><img src=https://img.youtube.com/vi/VfXN3IqElDk/hqdefault.jpg alt='Video Chess'><span>▶</span></a>"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    title="Chess C++"
+                    ></iframe>
                     <p>
                         <br><strong>WHAT: </strong>Paired programming school project
                         <br><strong>PURPOSE/GOAL: </strong>Learn inheritance class design
@@ -74,7 +99,16 @@
                     <h3>
                         Artillery Simulator
                     </h3>
-                    <iframe src="https://www.youtube.com/embed/Es8G18KSQyA" allow="fullscreen"></iframe>
+                    <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/Es8G18KSQyA?&autoplay=1&mute=1"
+                    srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/Es8G18KSQyA?&autoplay=1&mute=1><img src=https://img.youtube.com/vi/Es8G18KSQyA/hqdefault.jpg alt='Video Artillery Simulator'><span>▶</span></a>"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    title="Artillery Simulator"
+                    ></iframe>
                     <p>
                         <br><strong>WHAT: </strong>Paired programming school project
                         <br><strong>PURPOSE/GOAL: </strong>Learn class design and OOP
@@ -83,14 +117,25 @@
                         and implementing the cannon, game logic, and bug fixes.
                     </p>
                 </div>
-
             </div>
+
+            
+
             <div class="topicGrid">
                 <div class="gridCard">
                     <h3>
                         Lunar Lander
                     </h3>
-                    <iframe src="https://www.youtube.com/embed/9rYoCnMxWPM" allow="fullscreen"></iframe>
+                    <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/9rYoCnMxWPM?&autoplay=1&mute=1"
+                    srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/9rYoCnMxWPM?&autoplay=1&mute=1><img src=https://img.youtube.com/vi/9rYoCnMxWPM/hqdefault.jpg alt='Video Lunar Lander'><span>▶</span></a>"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    title="Lunar Lander"
+                    ></iframe>
                     <p>
                         <br><strong>WHAT: </strong>Paired programming school project
                         <br><strong>PURPOSE/GOAL: </strong>Learn class design and OOP
@@ -99,15 +144,17 @@
                         most with class design and implementation, and game logic.
                     </p>
                 </div>
+                
             </div>
         </div>
         <div id="Python">
             <h2>
                 Python <br>(Coming Soon)
             </h2>
-            <div class="topicGrid">
-
-            </div>
+            
+            
+            
+            
         </div>
         <div id="Java">
             <h2>
@@ -119,10 +166,81 @@
         </div>
         <div id="FlutterDart">
             <h2>
-                Flutter & Dart<br>(Coming Soon)
+                Flutter & Dart
+            </h2>
+            <div class="poursContainer">
+                <h3>
+                    Pours Amore
+                </h3>
+                <div class="poursGrid">
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="../images/poursHome.png" alt="Pours Amore Home Page"></div>
+                        <div class="swiper-slide"><img src="../images/poursHistory.png" alt="Pours Amore History Page"></div>
+                        <div class="swiper-slide"><img src="../images/poursProfile.png" alt="Pours Amore Profile Page"></div>
+                        <div class="swiper-slide"><img src="../images/poursSignIn.png" alt="Pours Amore Sign In Page"></div>
+                        
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    
+                </div>
+                <p class="poursParagraph">
+                    <br><strong>WHAT: </strong>Flutter App Senior Project
+                    <br><strong>PURPOSE/GOAL: </strong>Learn mobile development and Google Firebase/Firestore
+                    <br><strong>DESCRIPTION: </strong>A mobile app that helps users track the amount
+                    of water they drink. It's integrated with Google Firebase for user registration and
+                    authentication. It also uses Google Firestore to hold user information such as weight,
+                    age, and water drinking history. The app allows the user to enter the amount of water they
+                    drink each day and to see their history of water consumption via time plot.
+                </p>
+            </div>
+        </div>
+        <div id="Web">
+            <h2>
+                HTML/CSS/JS
             </h2>
             <div class="topicGrid">
-
+                <div class="gridCard">
+                    <h3>
+                        Lite Forecast
+                    </h3>
+                    <img id="weatherImg" src="../images/weatherlogo.png" alt="Weather logo">
+                    <h3>Check it out <a href="https://devinpickle.github.io/lite-forecast/" target="_blank">HERE</a></h3>
+                    <p>
+                        <br><strong>WHAT: </strong>A Frontend Web Dev Project
+                        <br><strong>PURPOSE/GOAL: </strong>Learn frontend web dev concepts (lazyload, design,)
+                        <br><strong>DESCRIPTION: </strong>A mock weather site that demonstrates my progression
+                        of learning frontend web design concepts. The site demonstrates knowledge of JavaScript
+                        through lazyloading images, an adapting navigation bar, and pulling weather data from API's.
+                    </p>
+                </div>
+                <div class="gridCard">
+                    <h3>
+                        Stopwatch
+                    </h3>
+                    <div id="timer">0.00</div>
+                    <button id="startButton">Start</button>
+                    <button id="stopButton">Stop</button>
+                    <button id="resetButton">Reset</button>
+                    <script src="../js/stopwatch.js"></script>
+                    <p>
+                        <br><strong>WHAT: </strong>A Frontend Web Dev Project
+                        <br><strong>PURPOSE/GOAL: </strong>Learn frontend web dev concepts (lazyload, design,)
+                        <br><strong>DESCRIPTION: </strong>A mock weather site that demonstrates my progression
+                        of learning frontend web design concepts. The site demonstrates knowledge of JavaScript
+                        through lazyloading images, an adapting navigation bar, and pulling weather data from API's.
+                    </p>
+                </div>
+                
             </div>
         </div>
         <div id="R">
@@ -142,6 +260,30 @@
     <script>
         WebFont.load({
             google: {families: ['Lora']}
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 4000
+            },
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        
         });
     </script>
 </body>
