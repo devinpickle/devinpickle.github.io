@@ -116,4 +116,15 @@ nav a:active {
 }
 
 
+.socialLink a{
+	color: rgb(123, 142, 142);
+}
 
+main {
+	margin-top: 50px;
+	background-color: rgb(33, 33, 33);;
+}
+
+footer a {
+	color: white;
+}
