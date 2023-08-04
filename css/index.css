@@ -12,6 +12,9 @@ Order of implementing CSS
 /* =======================
         Mobile/General
 ========================== */
+.siteIcon {
+	max-width: 80px;
+}
 
 body {
 	max-width: 800px;

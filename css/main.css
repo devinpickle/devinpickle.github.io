@@ -13,6 +13,11 @@ Order of implementing CSS
         Mobile/General
 ========================== */
 
+.siteIcon {
+	max-width: 80px;
+}
+
+
 body {
 	max-width: 1000px;
 	background-color: rgb(33, 33, 33);
